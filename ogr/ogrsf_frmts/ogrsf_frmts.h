@@ -795,6 +795,7 @@ void CPL_DLL RegisterOGRXODR();
 void DeclareDeferredOGRXODRPlugin();
 void CPL_DLL RegisterOGRADBC();
 void DeclareDeferredOGRADBCPlugin();
+void CPL_DLL RegisterOGR12da();
 void CPL_DLL RegisterOGRAIVector();
 // @endcond
 

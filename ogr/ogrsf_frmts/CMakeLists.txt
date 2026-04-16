@@ -74,6 +74,7 @@ ogr_optional_driver(vdv "VDV-451/VDV-452/INTREST Data Format")
 ogr_optional_driver(flatgeobuf FlatGeobuf)
 ogr_optional_driver(mapml MapML)
 ogr_optional_driver(adbc ADBC)
+ogr_optional_driver(12da "12d Model ASCII")
 
 if( NOT WORDS_BIGENDIAN )
     ogr_optional_driver(miramon "MiraMonVector")

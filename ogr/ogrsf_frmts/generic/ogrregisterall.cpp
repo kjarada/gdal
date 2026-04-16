@@ -263,6 +263,10 @@ void OGRRegisterAllInternal()
     RegisterOGRAVCE00();
 #endif
 
+#ifdef TWELVEDA_ENABLED
+    RegisterOGR12da();
+#endif
+
     // Last but not the least
 #ifdef AIVECTOR_ENABLED
     RegisterOGRAIVector();
